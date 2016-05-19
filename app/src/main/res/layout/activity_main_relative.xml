@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:tools="http://schemas.android.com/tools"
+                tools:context="pro.dbro.constraintlayout.RelativeActivity">
+
+    <TextView
+        android:text="And every Saturday morning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textSize="23sp"
+        android:id="@+id/textView1"
+        />
+
+    <TextView
+        android:text="I watched cartoons with a bowl of Frosted Flakes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@id/textView1"
+        android:id="@+id/textView2"/>
+
+    <TextView
+        android:text="Then.. the puberty came, started hitting them cuties with game and the truancy came"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/textView1"
+        android:layout_toLeftOf="@id/textView2"
+        android:layout_alignBottom="@id/textView2"
+        android:textSize="14sp"
+        android:id="@+id/textView3"/>
+
+    <TextView
+        android:text="Started cutting in not just class, I was comin all fast, I was new to the game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/textView3"
+        android:textSize="14sp"
+        android:id="@+id/textView4"/>
+
+    <TextView
+        android:text="Used to playin on T.V"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/textView4"
+        android:textSize="14sp"
+        android:id="@+id/textView5"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView4"
+        android:layout_toRightOf="@id/textView5"
+        android:src="@android:drawable/btn_plus"/>
+
+    <TextView
+        android:text="courtesy of video music box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageView"
+        android:layout_below="@id/textView4"
+        android:textSize="20sp"
+        android:id="@+id/textView6"/>
+</RelativeLayout>
